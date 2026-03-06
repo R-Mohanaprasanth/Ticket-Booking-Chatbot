@@ -16,10 +16,10 @@ const Footer = () => {
     <footer style={footerStyles}>
       <p style={{ marginBottom: '10px' }}>© 2025 PEAS - Museum Ticket Guide | All rights reserved</p>
       <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
-        <a href="#" style={{ color: 'white', textDecoration: 'underline' }}>Privacy Policy</a>
-        <a href="#" style={{ color: 'white', textDecoration: 'underline' }}>Terms</a>
-        <a href="#" style={{ color: 'white', textDecoration: 'underline' }}>Contact Us</a>
-      </div>
+  <a href="/privacy" style={{ color: 'white', textDecoration: 'underline' }}>Privacy Policy</a>
+  <a href="/terms" style={{ color: 'white', textDecoration: 'underline' }}>Terms</a>
+  <a href="/contact" style={{ color: 'white', textDecoration: 'underline' }}>Contact Us</a>
+</div>
     </footer>
   );
 };
