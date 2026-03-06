@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { io } from "socket.io-client";
 import { motion, AnimatePresence } from "framer-motion";
 
-const socket = io('http://localhost:5000');
+const socket = io("https://ticket-booking-chatbot.onrender.com");
 
 const GREETING_MESSAGE = {
   sender: 'bot',
